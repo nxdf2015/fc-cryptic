@@ -1,0 +1,53 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  font-size : 3rem;
+  margin-bottom : 2rem;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ 
+i { color : green;
+ font-size : 2rem;}
+a {
+  color : black;
+  font-size : 2rem;
+  box-sizing : content-box;
+  text-decoration : none;
+  border : 1px solid grey;
+}
+ 
+
+a:hover {
+  background : grey;
+   
+}
+
+span {
+  background : lightgrey;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
